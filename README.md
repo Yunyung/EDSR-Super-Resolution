@@ -29,6 +29,7 @@ To reproduct my submission without retrainig, do the following steps:
 - pillow
 - cv2
 
+**Using Anaconda is strongly recommended.*
 ## Download Official Dataset
 Download 291 traning dataset and Set14 testing dataset from [Google drive](https://drive.google.com/drive/folders/1r_vkLBCc2_d7J-rNWrgCzZUkQobvurAS?usp=sharing)
 
