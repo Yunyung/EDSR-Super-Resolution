@@ -105,6 +105,7 @@ LR
 <img src="testing_lr_images/11.png" />
 
 3x HR
+
 <img src="results/EDSR_tf_ep100_25.602/11.png" />
 
 ## Acknowledgements
