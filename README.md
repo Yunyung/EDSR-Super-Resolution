@@ -94,11 +94,18 @@ It will produce the upscale image in ```EDSR_Tensorflow/images/EdsrOutput_<img_f
 ## Visualizer 
 Low Resolutoin:
 
-<img src="testing_lr_images/00.png" />
+<img src="testing_lr_images/09.png" />
 
 3x Upscale High Resolutoin
 
-<img src="results/EDSR_tf_ep100_25.602/00.png" />
+<img src="results/EDSR_tf_ep100_25.602/09.png" />
+
+LR
+
+<img src="testing_lr_images/11.png" />
+
+3x HR
+<img src="results/EDSR_tf_ep100_25.602/11.png" />
 
 ## Acknowledgements
 This code is built on [VDSR (PyTorch) [3]](https://github.com/twtygqyy/pytorch-vdsr) and [EDSR (Tensorflow) [4]](https://github.com/Saafke/EDSR_Tensorflow). We thank the authors for sharing their codes.
