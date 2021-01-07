@@ -92,9 +92,17 @@ It will produce the upscale image in ```EDSR_Tensorflow/images/EdsrOutput_<img_f
 **Note: Obviously, VDSR should be better than bicubic interpolation, but in our experiment is not. After tracing the source code in [github [3]](https://github.com/twtygqyy/pytorch-vdsr), we think it's bacause the some evaluation tricks in [VDSR github code [3]](https://github.com/twtygqyy/pytorch-vdsr) we adopt.*
 
 ## Visualizer 
+Low Resolutoin:
+
+<img src="testing_lr_images/00.png" />
+
+3x Upscale High Resolutoin
+
+<img src="results/EDSR_tf_ep100_25.602/00.png" />
 
 ## Acknowledgements
 This code is built on [VDSR (PyTorch) [3]](https://github.com/twtygqyy/pytorch-vdsr) and [EDSR (Tensorflow) [4]](https://github.com/Saafke/EDSR_Tensorflow). We thank the authors for sharing their codes.
+
 ## References
 [1] [Bee Lim, Sanghyun Son, Heewon Kim, Seungjun Nah, and Kyoung Mu Lee, "Enhanced Deep Residual Networks for Single Image Super-Resolution," 2nd NTIRE: New Trends in Image Restoration and Enhancement workshop and challenge on image super-resolution in conjunction with CVPR 2017](https://arxiv.org/pdf/1707.02921.pdf)
 
